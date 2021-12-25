@@ -17,6 +17,15 @@ Template Name: Каталог
 				)); ?>
             </div>
         </div>
+		<!-- кнопка ведет на страницу о нас -->
+		<div class="link-button-page">
+		<?php wp_nav_menu(array(
+				'theme_location' => 'page-catalog-menu',
+				'menu_class' => ''
+			)); ?>
+			<i class="fa fa-arrow-right" aria-hidden="true"></i>
+		</div>
+		<!-- кнопка ведет на страницу о нас -->
         <div class="contents content-katalog">
 			<?php
 			$id = 3; // номер категории

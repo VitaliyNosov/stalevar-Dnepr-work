@@ -18,7 +18,35 @@
 		<a class="button__top" id="button__top"></a>
 	<!-- Кнопка на верх - вниз -->
 
+	<!-- Блок с социальными иконками -->
+
+	<!-- <div class="socila-block">
+		<div class="icon-block facebook-hover">
+			<a href="https://www.facebook.com/stalevarcompany/" target="_blank" rel="nofollow" alt="компания Сталевар в фейсбук">
+				<i class="fab fa-facebook-f"></i>
+			</a>
+		</div>
+		<div class="icon-block youtube-hover">
+		<a href="https://www.youtube.com/channel/UC9WU_59u76_VMz3kRiE9jUQ/videos?view_as=subscriber" target="_blank" rel="nofollow" alt="компания Сталевар в ютуб">
+			<i class="fab fa-youtube"></i>
+			</a>
+		</div>
+		<div class="icon-block viber-hover">
+		<a href="viber://chat?number=+380675624220" target="_blank" rel="nofollow" alt="компания Сталевар в вайбер">
+			<i class="fab fa-viber"></i>
+			</a>
+		</div>
+		<div class="icon-block telegram-hover">
+		<a href="https://t.me/ooo_stalevar" target="_blank" rel="nofollow" alt="компания Сталевар в телеграм">
+			<i class="fab fa-telegram-plane"></i>
+			</a>
+		</div>
+	</div> -->
+
+	<!-- Блок с социальными иконками -->
+
 <?php wp_footer(); ?>
+
 <script id="bx24_form_button" data-skip-moving="true">
 	(function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
 		(w[b].forms=w[b].forms||[]).push(arguments[0])};
@@ -28,13 +56,15 @@
 	})(window,document,'https://stalevar.bitrix24.ua/bitrix/js/crm/form_loader.js','b24form');
 	b24form({"id":"6","lang":"ru","sec":"folyq9","type":"button","click":""});
 </script>
+
 <script data-skip-moving="true">
        (function(w,d,u,b){
                s=d.createElement('script');r=(Date.now()/1000|0);s.async=1;s.src=u+'?'+r;
                h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
        })(window,document,'https://cdn.bitrix24.ua/b2347643/crm/site_button/loader_2_vr99z3.js');
 </script>
-<script>
+
+<!-- <script>
 $('.knopki .menu-item-66 a').removeAttr("href").addClass('b24-web-form-popup-btn-6').css('cursor', 'pointer');
 
 		$(function() {
@@ -54,7 +84,8 @@ $('.knopki .menu-item-66 a').removeAttr("href").addClass('b24-web-form-popup-btn
         		}
     		});
 		});
-	</script>
+	</script> -->
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -66,6 +97,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72402641-1"></script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -73,6 +105,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   gtag('config', 'UA-72402641-1');
 </script>
+
 	<!--end analitics-->
 <!-- Google Code for &#1042;&#1089;&#1077; &#1087;&#1086;&#1089;&#1077;&#1090;&#1080;&#1090;&#1077;&#1083;&#1080; (27.06.17) -->
 <!-- Google Code for Remarketing Tag -->
@@ -87,6 +120,8 @@ var google_custom_params = window.google_tag_params;
 var google_remarketing_only = true;
 /* ]]> */
 </script>
+
+
 <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
 </script>
 <noscript>
@@ -94,6 +129,7 @@ var google_remarketing_only = true;
 <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/934512224/?value=1.00&amp;currency_code=UAH&amp;label=OPqhCMuXrXIQ4IzOvQM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
+
 
 <!--binotel-->
 <script type="text/javascript">
@@ -104,6 +140,7 @@ var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(ctw, sn);
 })(document, window, 'script');
 </script>
 <!-- end binotel-->
+
 <!--popup bitrix-->
 <script data-b24-form="auto/6/folyq9" data-skip-moving="true">
 	(function(w,d,u){
@@ -112,6 +149,7 @@ var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(ctw, sn);
 	})(window,document,'https://cdn.bitrix24.ua/b2347643/crm/form/loader_6.js');
 </script>
 <!--end popup bitrix-->
+
 <!--Модальное окно-->
 <script id="bx24_form_button" data-skip-moving="true">
         (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;

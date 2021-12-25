@@ -3,9 +3,13 @@
 /* загружаемые скрипты и стили */
 function load_style_script(){
 	// стили
-	wp_enqueue_style('style-icon', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+	wp_enqueue_style('icon-one', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+	wp_enqueue_style('icon-two', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
 	wp_enqueue_style('normalize', get_template_directory_uri() . '/css/normalize.min.css');
-	wp_enqueue_style('style', get_template_directory_uri() . '/style.css');
+	wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css');
+	// wp_enqueue_style('style-min', get_template_directory_uri() . '/css/style.min.css');
+	// wp_enqueue_style('style', get_template_directory_uri() . '/style.css');
+
 	// скрипты
 	wp_deregister_script('jquery');
 	wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', array(), null, true);
@@ -25,7 +29,8 @@ add_theme_support('post-thumbnails');
 register_nav_menus(array(
 	'header_menu' => 'Меню в шапке',
 	'sidebar_menu' => 'Меню в сайдбаре',
-	'slider-button' => 'Кнопки'
+	'slider-button' => 'Кнопки',
+	'page-catalog-menu' => 'О нас'
 ));
 
 /* Телефон в шапке */

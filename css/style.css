@@ -174,6 +174,7 @@ display: inline-block;
 .head-content-bot nav ul ul .sub-menu li a {
 	width: 200px;
 	position:initial;
+    
 }
 /* Меню первый выпадающий список */
 #menu-item-1560 a, #menu-item-1772 a, #menu-item-1771 a, #menu-item-1759 a, #menu-item-1777 a, #menu-item-1778 a, #menu-item-1776 a, #menu-item-1775 a, #menu-item-1774 a, #menu-item-1773 a, #menu-item-1819 a, #menu-item-1821 a, #menu-item-1823 a, #menu-item-1831 a, #menu-item-1832 a, #menu-item-1833 a, #menu-item-1834 a, #menu-item-1835 a, #menu-item-3227 a, #menu-item-3228 a, #menu-item-3231 a, #menu-item-3229 a, #menu-item-3230 a {
@@ -183,7 +184,19 @@ display: inline-block;
 	vertical-align: middle;
 	padding-top: 10px;
 	position: initial;
+	/* background-color: red !important;
+	visibility: hidden !important;
+	opacity: 0 !important;
+	transform: translateY(-10px) !important;
+	transition: 0.5s ease !important; */
 }
+/* Класс для анимации */
+/* #menu-item-1511:hover{
+	display: block !important;
+	visibility: visible !important;
+	transform: translateY(0) !important;
+	opacity: 1 !important;
+} */
 #menu-item-3229 a, #menu-item-3230 a {
 	width: 266px;
 	display: block;
@@ -206,7 +219,7 @@ display: inline-block;
 	position: initial;
 }
 #menu-item-1516 a:hover, #menu-item-1517 a:hover, #menu-item-1518 a:hover, #menu-item-1519 a:hover, #menu-item-1522 a:hover, #menu-item-1820 a:hover, #menu-item-1520 a:hover, #menu-item-1822 a:hover, #menu-item-1512 a:hover, #menu-item-1513 a:hover, #menu-item-1514 a:hover, #menu-item-1515 a:hover, #menu-item-1824 a:hover, #menu-item-1521 a:hover, #menu-item-1539 a:hover, #menu-item-1826 a:hover, #menu-item-1828 a:hover, #menu-item-1830 a:hover, #menu-item-1829 a:hover, #menu-item-1843 a:hover {	
-	transition:1s;
+	transition: 1s;
 	background:#a53803;
 }
 /* end Меню второй выпадающий список */	
@@ -2361,3 +2374,163 @@ transform: rotate(360deg);
 	  opacity: 1;
 	  visibility: visible; }
   
+
+/* Cтили кнопки О нас */
+
+.link-button-page{
+	display: flex !important;
+	height: 40px !important;
+	justify-content: flex-start !important;
+	align-items: center !important;
+	padding-left: 20px;
+	background-color: #D86303 !important;
+	color: #fff !important;
+	margin-bottom: 50px;
+	transition: 0.5s;
+}
+
+.link-button-page:hover{
+	background-color: #A53803 !important;
+}
+
+.link-button-page a{
+	text-decoration: none !important;
+	color: #fff !important;
+	font-size: 16px !important;
+}
+
+.link-button-page i{
+	margin-left: 5px !important;
+}
+
+.menu-o-nas-container{
+	height: 40px;
+	display: flex !important;
+	align-items: center !important;
+}
+
+.menu-o-nas-container ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+/* Стили формы отзывов */
+
+.strong-form-inner input{
+	border-radius: 4px !important;
+    height: 52px !important;
+	border: none !important;
+	background-color: #EDEDED !important;
+	border: 1px solid #D8D8D8 !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+
+.strong-form-inner textarea{
+	border-radius: 4px !important;
+    height: 200px !important;
+	border: none !important;
+	background-color: #EDEDED !important;
+	border: 1px solid #D8D8D8 !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+
+.wpmtst-submit input{
+	background-color: #F16522 !important;
+	color: #fff;
+	transition: 0.5s;
+}
+
+.wpmtst-submit input:hover{
+	background-color: #A53803 !important;
+}
+
+.field-wrap input{
+	background-color: #fff !important;
+	border: none !important;
+	padding: 0 !important;
+}
+
+/* Социальный блок */
+
+.socila-block{
+	display: flex;
+	margin-top: 10px;
+}
+
+@media(max-width: 767px){
+	.socila-block{
+		display: flex;
+		justify-content: center;
+	}
+}
+    
+.icon-block{
+	width: 35px;
+	height: 35px;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	background-color: #F16522;
+	border-radius: 50px;
+	transition: 0.5s;
+	margin-left: 5px;
+}
+
+.icon-block a{
+	width: 85%;
+	height: 85%;
+}
+
+.icon-block:hover{
+	background-color: #A53803;
+}
+
+.icon-block i{
+	color: #fff;
+	font-size: 14px;
+}
+
+.facebook-hover:hover{
+	background-color: #097EEB !important;
+}
+
+.youtube-hover:hover{
+	background-color: #FF0000 !important;
+}
+
+.viber-hover:hover{
+	background-color: #6F5CEA !important;
+}
+
+.telegram-hover:hover{
+	background-color: #239AD6 !important;
+}
+
+/* Заголовок Отзывы */
+
+.reviews-page{
+	margin-top: 50px;
+}
+
+/* Форма скачать прайс */
+
+.b24-form-btn{
+	background-color: #F16522 !important;
+}
+
+.b24-form-wrapper.b24-form-border-bottom {
+    border-bottom: 5px solid #F16522 !important;
+}
+
+.b24-window-close {
+    background-color: #F16522 !important;
+    background-color: var(--b24-primary-color);
+}
+
+.strong-form-inner input[type="file"]{
+	color: #F16522 !important;
+}
+

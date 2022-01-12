@@ -2345,6 +2345,11 @@ transform: rotate(360deg);
 
 .button__top {
 	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 24px;
 	background-color: #F16522;
 	width: 50px;
 	height: 50px;
@@ -2357,14 +2362,6 @@ transform: rotate(360deg);
 	opacity: 0;
 	visibility: hidden;
 	z-index: 1000; }
-	.button__top::after {
-	  content: "\f077";
-	  font-family: FontAwesome;
-	  font-weight: normal;
-	  font-style: normal;
-	  font-size: 2em;
-	  line-height: 50px;
-	  color: #fff; }
 	.button__top:hover {
 	  cursor: pointer;
 	  background-color: #B95110; }
@@ -2532,5 +2529,65 @@ transform: rotate(360deg);
 
 .strong-form-inner input[type="file"]{
 	color: #F16522 !important;
+}
+
+
+/* Cтили иконок на странице О нас */
+
+.icon-page-onas{
+	width: 50px;
+	height: 50px;
+}
+/* 
+Второй вариан иконок для страницы О нас */
+
+
+.icon-info-block{
+	/* border: 1px solid red; */
+	max-width: 100%;
+	display: flex;
+	margin: 10px;
+	justify-content: space-between;
+}
+
+.colum{
+	width: 30%;
+	margin-top: 20px;
+}
+
+@media(max-width: 767px){
+	.icon-info-block{
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.colum{
+		width: 100%;
+	}
+}
+
+
+.icon{
+	width: 100%;
+	min-height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #E6E6E6;
+	/* border: 1px solid red; */
+}
+
+.icon img{
+	width: 150px !important;
+	height: 150px !important;
+	padding: 20px;
+}
+
+.icon-text{
+	text-align: center;
+}
+
+.icon-text h1 {
+	margin-top: 20px;
 }
 

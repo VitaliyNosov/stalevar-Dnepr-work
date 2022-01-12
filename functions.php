@@ -3,11 +3,10 @@
 /* загружаемые скрипты и стили */
 function load_style_script(){
 	// стили
-	wp_enqueue_style('icon-one', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 	wp_enqueue_style('icon-two', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
 	wp_enqueue_style('normalize', get_template_directory_uri() . '/css/normalize.min.css');
-	wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css');
-	// wp_enqueue_style('style-min', get_template_directory_uri() . '/css/style.min.css');
+	// wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css');
+	wp_enqueue_style('style-min', get_template_directory_uri() . '/css/style.min.css');
 	// wp_enqueue_style('style', get_template_directory_uri() . '/style.css');
 
 	// скрипты
@@ -19,6 +18,7 @@ function load_style_script(){
 
 /* загружаем скрипты и стили */
 add_action('wp_enqueue_scripts', 'load_style_script');
+
 
 /* поддержка миниатюр */
 add_theme_support('post-thumbnails');

@@ -15,35 +15,11 @@
     </footer>
 	
 	<!-- Кнопка на верх - вниз -->
-		<a class="button__top" id="button__top"></a>
+		<a class="button__top" id="button__top">
+			<i class="fas fa-chevron-up"></i>
+		</a>
 	<!-- Кнопка на верх - вниз -->
 
-	<!-- Блок с социальными иконками -->
-
-	<!-- <div class="socila-block">
-		<div class="icon-block facebook-hover">
-			<a href="https://www.facebook.com/stalevarcompany/" target="_blank" rel="nofollow" alt="компания Сталевар в фейсбук">
-				<i class="fab fa-facebook-f"></i>
-			</a>
-		</div>
-		<div class="icon-block youtube-hover">
-		<a href="https://www.youtube.com/channel/UC9WU_59u76_VMz3kRiE9jUQ/videos?view_as=subscriber" target="_blank" rel="nofollow" alt="компания Сталевар в ютуб">
-			<i class="fab fa-youtube"></i>
-			</a>
-		</div>
-		<div class="icon-block viber-hover">
-		<a href="viber://chat?number=+380675624220" target="_blank" rel="nofollow" alt="компания Сталевар в вайбер">
-			<i class="fab fa-viber"></i>
-			</a>
-		</div>
-		<div class="icon-block telegram-hover">
-		<a href="https://t.me/ooo_stalevar" target="_blank" rel="nofollow" alt="компания Сталевар в телеграм">
-			<i class="fab fa-telegram-plane"></i>
-			</a>
-		</div>
-	</div> -->
-
-	<!-- Блок с социальными иконками -->
 
 <?php wp_footer(); ?>
 
@@ -64,7 +40,7 @@
        })(window,document,'https://cdn.bitrix24.ua/b2347643/crm/site_button/loader_2_vr99z3.js');
 </script>
 
-<!-- <script>
+<script>
 $('.knopki .menu-item-66 a').removeAttr("href").addClass('b24-web-form-popup-btn-6').css('cursor', 'pointer');
 
 		$(function() {
@@ -84,7 +60,7 @@ $('.knopki .menu-item-66 a').removeAttr("href").addClass('b24-web-form-popup-btn
         		}
     		});
 		});
-	</script> -->
+	</script>
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -167,3 +143,4 @@ var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(ctw, sn);
 
 </body>
 </html>
+

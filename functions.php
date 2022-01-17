@@ -3,7 +3,7 @@
 /* загружаемые скрипты и стили */
 function load_style_script(){
 	// стили
-	wp_enqueue_style('icon-two', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+	// wp_enqueue_style('icon-two', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
 	wp_enqueue_style('normalize', get_template_directory_uri() . '/css/normalize.min.css');
 	// wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css');
 	wp_enqueue_style('style-min', get_template_directory_uri() . '/css/style.min.css');
@@ -11,13 +11,18 @@ function load_style_script(){
 
 	// скрипты
 	wp_deregister_script('jquery');
-	wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', array(), null, true);
+	wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.6.0.min.js' , array(), null, true);
 	wp_enqueue_script('scripts', get_template_directory_uri() .'/js/common.js', array('jquery'), null, true);
 	
 }
 
 /* загружаем скрипты и стили */
 add_action('wp_enqueue_scripts', 'load_style_script');
+
+function wpschool_load_fontawesome() {
+    wp_enqueue_style( 'font-awesome', get_stylesheet_directory_uri() . '/assets/fontawesome-5/css/all.min.css' );
+}
+add_action( 'wp_enqueue_scripts', 'wpschool_load_fontawesome' );
 
 
 /* поддержка миниатюр */

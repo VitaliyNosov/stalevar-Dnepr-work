@@ -10,8 +10,8 @@
 <body <?php body_class(); ?>>
 
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MS2HS9J"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MS2HS9J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 <!-- End Google Tag Manager (noscript) -->
 
 
@@ -95,3 +95,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
     </header>
+

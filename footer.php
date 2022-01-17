@@ -14,11 +14,13 @@
 		</div>
     </footer>
 	
-	<!-- Кнопка на верх - вниз -->
-		<a class="button__top" id="button__top">
+	<!-- Кнопка на вверх - вниз -->
+		<button type="button" class="scrolltop js-scrolltop">
 			<i class="fas fa-chevron-up"></i>
-		</a>
-	<!-- Кнопка на верх - вниз -->
+		</button>
+	<!-- Кнопка на вверх - вниз -->
+
+
 
 
 <?php wp_footer(); ?>
@@ -72,6 +74,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72402641-1"></script>
 
 <script>
@@ -100,6 +103,7 @@ var google_remarketing_only = true;
 
 <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
 </script>
+
 <noscript>
 <div style="display:inline;">
 <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/934512224/?value=1.00&amp;currency_code=UAH&amp;label=OPqhCMuXrXIQ4IzOvQM&amp;guid=ON&amp;script=0"/>
@@ -108,13 +112,13 @@ var google_remarketing_only = true;
 
 
 <!--binotel-->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 (function(d, w, s) {
 var widgetHash = 'rdoc762mw9ph0r9pv0uj', ctw = d.createElement(s); ctw.type = 'text/javascript'; ctw.async = true;
 ctw.src = '//widgets.binotel.com/calltracking/widgets/'+ widgetHash +'.js';
 var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(ctw, sn);
 })(document, window, 'script');
-</script>
+</script> -->
 <!-- end binotel-->
 
 <!--popup bitrix-->

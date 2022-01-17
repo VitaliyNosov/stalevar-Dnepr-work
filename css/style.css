@@ -2341,36 +2341,39 @@ transform: rotate(360deg);
 	display:none;
 }
 
-/* Кнопка на вверх */
+/* Кнопка на вверх - вниз */
 
-.button__top {
-	display: inline-block;
+.scrolltop {
+	width: 50px;
+	height: 50px;
+	position: fixed;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #fff;
 	font-size: 24px;
-	background-color: #F16522;
-	width: 50px;
-	height: 50px;
-	text-align: center;
-	border-radius: 4px;
-	position: fixed;
 	bottom: 150px;
 	right: 60px;
-	transition: background-color .3s, opacity .5s, visibility .5s;
+	border: none;
+	color: #fff;
+	background: #F16522;
+	text-align: center;
 	opacity: 0;
+	border-radius: 4px;
+	transition: background-color .3s, opacity .5s, visibility .5s;
 	visibility: hidden;
-	z-index: 1000; }
-	.button__top:hover {
-	  cursor: pointer;
-	  background-color: #B95110; }
-	.button__top:active {
-	  background-color: #555; }
-	.button__top.show {
-	  opacity: 1;
-	  visibility: visible; }
-  
+  }
+
+.scrolltop:hover{
+	cursor: pointer;
+	background-color: #B95110;
+}
+
+.scrolltop.show{
+	opacity: 1;
+	visibility: visible;
+}
+
+/* Кнопка на вверх - вниз */
 
 /* Cтили кнопки О нас */
 

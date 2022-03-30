@@ -3,7 +3,7 @@
 
 ### Database SQL: 
 
-[Database Download](https://drive.google.com/file/d/1BsGypraZO4OnTaSIpN5zginJZCy86oJp/view?usp=sharing "Я ссылка")
+[Database Download](https://drive.google.com/file/d/1mag-8aJBkL6az3duPuPrBCJMbV0gBu06/view?usp=sharing "Я ссылка")
 
 
 
